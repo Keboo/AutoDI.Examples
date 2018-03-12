@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\ThirdParty\Microsoft\Microsoft.DependencyInjection.AutoDI\Microsoft.DependencyInjection.AutoDI.csproj" />
+    <ProjectReference Include="..\Microsoft\Microsoft.DependencyInjection.AutoDI\Microsoft.DependencyInjection.AutoDI.csproj" />
     <ProjectReference Include="..\ExampleLib\ExampleLib.csproj" />
   </ItemGroup>
 
