@@ -43,7 +43,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Console.Core", "T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.Framework.NoFody", "Platforms\Console.Framework.NoFody\Console.Framework.NoFody.csproj", "{EFF16801-2C44-457C-908E-C0EE465E1CD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.NetCore.NoFody", "Platforms\Console.NetCore.NoFody\Console.NetCore.NoFody.csproj", "{C4AE0361-6602-4C12-936B-5FF3CB20AE20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.NetCore.NoFody", "Platforms\Console.NetCore.NoFody\Console.NetCore.NoFody.csproj", "{C4AE0361-6602-4C12-936B-5FF3CB20AE20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
