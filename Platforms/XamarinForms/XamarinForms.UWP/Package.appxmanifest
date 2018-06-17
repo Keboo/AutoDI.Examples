@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="3b07ac46-5683-4c9d-b3e4-e43c6dcbbbd2"
-    Publisher="CN=kitok"
+    Name="a5b1b22e-6409-4698-9ba0-758f4fdeedd5"
+    Publisher="CN=e58c12aa-db67-448d-9ec3-291199f1ca34"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="3b07ac46-5683-4c9d-b3e4-e43c6dcbbbd2" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="ec0cc741-fd3e-485c-81be-68815c480690" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>XamarinForms.UWP</DisplayName>
-    <PublisherDisplayName>kitok</PublisherDisplayName>
+    <PublisherDisplayName>e58c12aa-db67-448d-9ec3-291199f1ca34</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -37,7 +37,13 @@
         Square44x44Logo="Assets\Square44x44Logo.png"
         Description="XamarinForms.UWP"
         BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\LargeTile.png" Square71x71Logo="Assets\SmallTile.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
     </Application>
