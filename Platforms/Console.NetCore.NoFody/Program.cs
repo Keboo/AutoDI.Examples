@@ -1,4 +1,5 @@
 ﻿using System;
+using AutoDI;
 using AutoDI.Container.Examples;
 
 namespace Console.NetCore.NoFody
@@ -7,8 +8,8 @@ namespace Console.NetCore.NoFody
     {
         static void Main(string[] args)
         {
-            
-            var quoteBoard = new QuoteBoard(null);
+            AutoDI.Generated.AutoDI.Init();
+            var quoteBoard = GlobalDI.GetService<QuoteBoard>();
             quoteBoard.ShowQuotes();
             System.Console.ReadLine();
         }
@@ -20,8 +21,7 @@ namespace Console.NetCore.NoFody
 
         public QuoteBoard(IQuoteService service)
         {
-            _service = service;
-            if (service == null) throw new ArgumentNullException(nameof(service));
+            _service = service ?? throw new ArgumentNullException(nameof(service));
         }
 
         public void ShowQuotes()
