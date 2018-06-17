@@ -46,14 +46,14 @@ namespace Microsoft.Console.Core
         public static void SetupDI(IApplicationBuilder builder)
         {
             builder.UseMicrosoftDI();
-            //builder.ConfigureContinaer<IServiceCollection>(serviceCollection =>
-            //{
-            //    Do any specific registration on the service collection
-            //});
-            //builder.ConfigureServices(services =>
-            //{
-            //    Configure any additional services
-            //});
+            builder.ConfigureContainer<IServiceCollection>(serviceCollection =>
+            {
+                //Do any specific registration on the service collection
+            });
+            builder.ConfigureServices(services =>
+            {
+                //Configure any additional services
+            });
         }
     }
 
