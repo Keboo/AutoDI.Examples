@@ -111,7 +111,6 @@
     <None Include="UWP_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="FodyWeavers.xml" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -132,8 +131,8 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="AutoDI.Fody">
-      <Version>3.3.0</Version>
+    <PackageReference Include="AutoDI.Build">
+      <Version>4.0.0-ci235</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.1.9</Version>

@@ -31,9 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleLib", "ThirdParty\Ex
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Console.Core", "ThirdParty\Microsoft.Console.Core\Microsoft.Console.Core.csproj", "{D48EF432-3258-4F6D-AF7A-247D0F7568C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.Framework.NoFody", "Platforms\Console.Framework.NoFody\Console.Framework.NoFody.csproj", "{EFF16801-2C44-457C-908E-C0EE465E1CD1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.Framework.Generator", "Platforms\Console.Framework.Generator\Console.Framework.Generator.csproj", "{EFF16801-2C44-457C-908E-C0EE465E1CD1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.NetCore.NoFody", "Platforms\Console.NetCore.NoFody\Console.NetCore.NoFody.csproj", "{C4AE0361-6602-4C12-936B-5FF3CB20AE20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.NetCore.Generator", "Platforms\Console.NetCore.Generator\Console.NetCore.Generator.csproj", "{C4AE0361-6602-4C12-936B-5FF3CB20AE20}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinForms.Android", "Platforms\XamarinForms\XamarinForms.Android\XamarinForms.Android.csproj", "{B3013475-ABB4-48BF-86FD-F4B723610139}"
 EndProject
@@ -47,7 +47,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Autofac", "Autofac", "{ED0D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autofac.Console.Core", "ThirdParty\Autofac\Autofac.Console.Core\Autofac.Console.Core.csproj", "{3DBC9EBC-C2DB-4122-A26B-1DBD32568A99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NetCore", "Platforms\ASP.NetCore\ASP.NetCore.csproj", "{9D492B23-C77C-45CA-A6DC-5ABBE0B61234}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP.NetCore", "Platforms\ASP.NetCore\ASP.NetCore.csproj", "{9D492B23-C77C-45CA-A6DC-5ABBE0B61234}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

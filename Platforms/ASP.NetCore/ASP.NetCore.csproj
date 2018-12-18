@@ -9,8 +9,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoDI.AspNetCore" Version="3.3.0" />
-    <PackageReference Include="AutoDI.Fody" Version="3.3.0" />
+    <PackageReference Include="AutoDI.AspNetCore" Version="4.0.0-ci235" />
+    <PackageReference Include="AutoDI.Build" Version="4.0.0-ci235" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.2.0" />
   </ItemGroup>
 

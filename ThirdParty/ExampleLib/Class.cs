@@ -1,6 +1,8 @@
 ﻿using System;
 using AutoDI;
 
+[assembly:Settings(GenerateRegistrations = false)]
+
 namespace ExampleLib
 {
     public class Class

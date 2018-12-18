@@ -3,6 +3,8 @@ using System.Collections.ObjectModel;
 using AutoDI;
 using AutoDI.Container.Examples;
 
+[assembly:Settings(GenerateRegistrations = false, DebugLogLevel = DebugLogLevel.Verbose)]
+
 namespace XamarinForms
 {
     public class MainViewModel

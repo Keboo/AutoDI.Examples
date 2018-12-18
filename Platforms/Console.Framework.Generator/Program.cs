@@ -2,7 +2,7 @@
 using AutoDI.Container.Examples;
 using System;
 
-namespace Console.Framework.NoFody
+namespace Console.Framework.Generator
 {
     class Program
     {
