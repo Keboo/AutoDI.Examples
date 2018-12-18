@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoDI.Fody" Version="3.3.0-ci126" />
+    <PackageReference Include="AutoDI.Fody" Version="3.3.0" />
   </ItemGroup>
 
 </Project>
