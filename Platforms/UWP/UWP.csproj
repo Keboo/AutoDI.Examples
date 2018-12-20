@@ -132,7 +132,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="AutoDI.Build">
-      <Version>4.0.0-ci235</Version>
+      <Version>4.0.0-ci244</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.1.9</Version>

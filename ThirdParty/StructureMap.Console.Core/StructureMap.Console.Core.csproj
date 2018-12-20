@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoDI.Build" Version="4.0.0-ci235" />
+    <PackageReference Include="AutoDI.Build" Version="4.0.0-ci244" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
   </ItemGroup>
 
