@@ -34,8 +34,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AutoDI, Version=4.0.0.244, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\AutoDI.4.0.0-ci244\lib\net461\AutoDI.dll</HintPath>
+    <Reference Include="AutoDI, Version=4.0.0.245, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\AutoDI.4.0.0-ci245\lib\net461\AutoDI.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
@@ -133,8 +133,8 @@
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('..\..\packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets'))" />
-    <Error Condition="!Exists('..\..\packages\AutoDI.Generator.4.0.0-ci244\build\AutoDI.Generator.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\AutoDI.Generator.4.0.0-ci244\build\AutoDI.Generator.targets'))" />
+    <Error Condition="!Exists('..\..\packages\AutoDI.Generator.4.0.0-ci245\build\AutoDI.Generator.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\AutoDI.Generator.4.0.0-ci245\build\AutoDI.Generator.targets'))" />
   </Target>
   <Import Project="..\..\packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('..\..\packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets')" />
-  <Import Project="..\..\packages\AutoDI.Generator.4.0.0-ci244\build\AutoDI.Generator.targets" Condition="Exists('..\..\packages\AutoDI.Generator.4.0.0-ci244\build\AutoDI.Generator.targets')" />
+  <Import Project="..\..\packages\AutoDI.Generator.4.0.0-ci245\build\AutoDI.Generator.targets" Condition="Exists('..\..\packages\AutoDI.Generator.4.0.0-ci245\build\AutoDI.Generator.targets')" />
 </Project>

@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoDI.Generator" Version="4.0.0-ci244" />
+    <PackageReference Include="AutoDI.Generator" Version="4.0.0-ci245" />
   </ItemGroup>
 
 </Project>
